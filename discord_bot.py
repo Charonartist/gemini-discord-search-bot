@@ -295,7 +295,7 @@ async def help_command(ctx):
         inline=False
     )
     
-    embed.set_footer(text="Powered by Gemini 2.0 Flash")
+    embed.set_footer(text="Powered by Gemini 2.5 Flash")
     await ctx.reply(embed=embed)
 
 # Add commands to bot

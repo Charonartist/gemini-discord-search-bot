@@ -1,6 +1,6 @@
 # 🤖 Gemini Discord Search Bot
 
-Gemini 2.0 Flash を使用したWEB検索専用のDiscord botです。チャンネル内の会話を監視し、自動的にWEB検索を実行して回答を提供します。
+Gemini 2.5 Flash を使用したWEB検索専用のDiscord botです。チャンネル内の会話を監視し、自動的にWEB検索を実行して回答を提供します。
 
 ## 🌟 機能
 

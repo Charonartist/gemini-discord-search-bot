@@ -13,7 +13,7 @@ class Config:
     
     # Gemini API Configuration
     GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
-    GEMINI_MODEL = os.getenv('GEMINI_MODEL', 'gemini-2.0-flash-exp')
+    GEMINI_MODEL = os.getenv('GEMINI_MODEL', 'gemini-2.5-flash')
     
     # Bot Configuration
     COMMAND_PREFIX = os.getenv('COMMAND_PREFIX', '!')

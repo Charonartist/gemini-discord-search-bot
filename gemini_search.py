@@ -10,9 +10,9 @@ class GeminiSearchBot:
         self.api_key = api_key
         genai.configure(api_key=api_key)
         
-        # Configure Gemini 2.0 Flash model
+        # Configure Gemini 2.5 Flash model
         self.model = genai.GenerativeModel(
-            model_name="gemini-2.0-flash-exp",
+            model_name="gemini-2.5-flash",
             generation_config={
                 "temperature": 0.7,
                 "top_p": 0.8,
